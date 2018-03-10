@@ -67,20 +67,39 @@ aside {
 }
 
 aside div { 
-	padding: 40px 100px 0px 40px; 
+	padding: 40px 0px 0px 40px; 
 }
 
 nav { 
 	background-color: rgba(0,0,0,.6); 
 	position: relative; 
 	padding: 20px 0px 30px 180px; 
+	mar­gin-top: 5px;
+	mar­gin-bot­tom: 0px;
 }
 
 @media screen and (max-width: 750px) {
 	
-	header a.logo { width: 120px; height: 44px; }
-	article { width: 100%; float: none; margin-bottom: 40px; }
-	article div { margin: 0px 40px; padding: 0px 0px 30px 0px; border-right: none; border-bottom: 1px solid #555; }
-	aside { width: 100%; float: none; }
+	header a.logo { 
+		width: 120px; 
+		height: 44px; 
+	}
 
+	article { 
+		width: 100%; 
+		float: none; 
+		margin-bottom: 40px; 
+	}
+
+	article div { 
+		margin: 0px 40px; 
+		padding: 0px 0px 30px 0px; 
+		border-right: none; 
+		border-bottom: 1px solid #555; 
+	}
+
+	aside { 
+		width: 100%; 
+		float: none; 
+	}
 }
