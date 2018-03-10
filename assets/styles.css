@@ -27,7 +27,7 @@ a {
 }
 
 header { 
-	height: 250px; 
+	height: 200px; 
 	background: #eee url(banner.jpg) no-repeat center; 
 	background-size: cover; 
 	margin-bottom: 50px; 
@@ -74,8 +74,6 @@ nav {
 	background-color: rgba(0,0,0,.6); 
 	position: relative; 
 	padding: 20px 0px 30px 180px; 
-	mar­gin-top: 5px;
-	mar­gin-bot­tom: 0px;
 }
 
 @media screen and (max-width: 750px) {
